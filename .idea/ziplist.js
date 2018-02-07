@@ -9,7 +9,7 @@ function zipList(array1, array2) {
 }
 
 function zipListTheSimpleWay(array1, array2) {
-  let array = _.zip(array1, array2);
+  let array = _.flatten(_.zip(array1, array2));
   return array;
 }
 
